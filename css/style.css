@@ -1,0 +1,76 @@
+#outline .contact{
+    text-decoration: none;
+    text-decoration-color: blue;
+    font-size: 1.25rem;
+    color: #333;
+    margin-top: 10px;
+}
+  
+#outline .picture {
+      width: 14rem;
+      height: 14rem;
+      object-fit:cover;
+      border: 5px solid #fff;
+      background-size:cover;
+      background-position:center;
+      border-radius: 50%;
+      box-shadow: 0 0 98px 6px rgba(0, 0, 0, 0.2)
+}
+  
+.title {
+   font-size: 2rem;
+   color: #333;
+   font-weight: 600;
+   margin-bottom:0;
+}
+
+#summary {
+      font-size: 1.25rem;
+      max-width: 25rem;
+      margin:auto;
+      margin-top:1.25rem;
+  
+      
+}
+
+body, html{
+   font-family: Arial,sans-serif;
+   background-color: #fcfcfc;
+   padding: 0;
+   margin: 0;
+   color: #4D4D4D
+
+}
+p {
+   font-size: 1.25rem
+}
+
+a {
+   color: #005FBF;
+   text-decoration: none
+}
+
+a:active,a:focus,a:hover {
+   text-decoration: underline;
+   text-decoration-color: #005FBF
+}
+
+h1 {
+   font-weight: 500;
+   font-size: 1.8rem
+}
+
+.row {
+ display: flex;
+}
+
+.column {
+ flex: 50%;
+ height: 25rem;
+ margin:1rem;
+}
+
+.center{
+ text-align: center;
+}
+
